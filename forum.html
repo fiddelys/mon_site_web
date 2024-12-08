@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum - Madagascar</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Forum Communautaire</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="ressources.html">Ressources</a></li>
+                <li><a href="crowdfunding.html">Crowdfunding</a></li>
+                <li><a href="developpement.html">Développement Durable</a></li>
+                <li><a href="gouvernance.html">Gouvernance</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Discussions Récentes</h2>
+        <div id="forum-posts">
+            <!-- Posts ajoutés dynamiquement ici -->
+        </div>
+    </section>
+
+    <section>
+        <h3>Ajoutez votre contribution</h3>
+        <form id="forum-form">
+            <input type="text" id="post-title" placeholder="Titre du post" required>
+            <textarea id="post-content" placeholder="Écrivez ici..." required></textarea>
+            <button type="submit">Publier</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Madagascar Initiatives. Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
